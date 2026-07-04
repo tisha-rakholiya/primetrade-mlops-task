@@ -1,0 +1,13 @@
+2026-07-04 10:00:00,001 [INFO] Job started
+2026-07-04 10:00:00,002 [INFO] Loading config from: config.yaml
+2026-07-04 10:00:00,003 [INFO] Config loaded — seed=42, window=5, version=v1
+2026-07-04 10:00:00,004 [INFO] Random seed set to 42
+2026-07-04 10:00:00,005 [INFO] Loading dataset from: data.csv
+2026-07-04 10:00:00,050 [INFO] Dataset loaded — 10000 rows, columns: ['open', 'high', 'low', 'close', 'volume']
+2026-07-04 10:00:00,051 [INFO] Computing rolling mean with window=5
+2026-07-04 10:00:00,055 [INFO] Rolling mean computed successfully
+2026-07-04 10:00:00,056 [INFO] Generating binary signal (close > rolling_mean = 1, else 0)
+2026-07-04 10:00:00,060 [INFO] Signal generated — rows processed: 9996, signal_rate: 0.499
+2026-07-04 10:00:00,061 [INFO] Processing complete — latency: 127ms
+2026-07-04 10:00:00,062 [INFO] Metrics written to: metrics.json
+2026-07-04 10:00:00,063 [INFO] Job completed successfully — status: success
